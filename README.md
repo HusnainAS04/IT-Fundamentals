@@ -38,7 +38,7 @@ Created a home network diagram version 1 based on my current knowledge.
 
 
 
-Confidence 1-5: 
+Confidence 1-5:
 
 5
 
@@ -49,4 +49,30 @@ Next weeks goal:
 Learn the basics of networking and create flashcards. Use packet tracer to practice real time networking in a simulated environment.
 
 
+
+\-------------------------------------------------------------
+
+
+
+Packet Tracer Lab:
+
+
+
+Connected 2 PCs through a switch and gave them a static ip address. Learned about subnet masks and network bits and host bits. IP address contains total of 32 bits.
+
+
+
+Problem: PC0 could not ping PC1
+
+Symptoms \& Evidence: Request timed out, cable lights green, ipconfig showed pc0 and pc1 ip addresses
+
+Root cause: The PCs were on different networks (third octet was different as subnet mask was 255.255.255.0)
+
+Fix: Changed the PCs ip address so the network was the same but the host bits were different.
+
+Lesson: When cables are fine but devices cant talk, check their addresses and masks to see if they are on the same network.
+
+
+
+SUBNET Masks can be made up of 8,16,24,25,26...32 network bits. This reduces the number of host bits so 32 means 0 usable host IPs.
 
