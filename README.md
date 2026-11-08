@@ -76,3 +76,13 @@ Lesson: When cables are fine but devices cant talk, check their addresses and ma
 
 SUBNET Masks can be made up of 8,16,24,25,26...32 network bits. This reduces the number of host bits so 32 means 0 usable host IPs.
 
+A value of 255 (11111111 in binary) means that entire octet belongs to the network.
+
+A value of 0 (00000000 in binary) means that octet belongs to the host (the individual device).
+
+Intermediate values (such as 128, 192, 224, 240, 252, 254) combine network and host bits within that single octet.
+
+255.255.255.0: The first three octets (255.255.255) lock down the network ID, while the last octet (0) is left for individual host devices.
+
+
+
