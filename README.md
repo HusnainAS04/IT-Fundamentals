@@ -86,3 +86,33 @@ Intermediate values (such as 128, 192, 224, 240, 252, 254) combine network and h
 
 
 
+
+
+Week 2 Log entry:
+
+
+
+What I learned:
+
+The OSI model, all 7 layers, Physical layer, Data link, Network, Transport, Session, Presentation and Application
+
+The TCP/IP model which has 4 layers, is similar to the OSI model but compacts a few layers together. Network access layer which combines the physical and data link layer, network layer, transport layer and application layer which combines session, presentation and application.
+
+Learned how to use packet tracer, connected 2 PCs through a switch and gave them IP addresses. Learned about ip addresses and subnet masks. How to convert ip to binary. Network and host bits that affect the ip address and subnet mask. 
+
+Learned what a packet and a frame are.
+
+
+
+Confidence level: 4
+
+
+
+Next weeks goal: Go more in depth about subnetting to understand how everything works together. Understand it further and implement it with packet tracer to gain experience using my knowledge in a practical way.
+
+
+
+\------------------------------------------------------------
+
+
+
