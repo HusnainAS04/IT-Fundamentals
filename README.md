@@ -98,7 +98,7 @@ The OSI model, all 7 layers, Physical layer, Data link, Network, Transport, Sess
 
 The TCP/IP model which has 4 layers, is similar to the OSI model but compacts a few layers together. Network access layer which combines the physical and data link layer, network layer, transport layer and application layer which combines session, presentation and application.
 
-Learned how to use packet tracer, connected 2 PCs through a switch and gave them IP addresses. Learned about ip addresses and subnet masks. How to convert ip to binary. Network and host bits that affect the ip address and subnet mask. 
+Learned how to use packet tracer, connected 2 PCs through a switch and gave them IP addresses. Learned about ip addresses and subnet masks. How to convert ip to binary. Network and host bits that affect the ip address and subnet mask.
 
 Learned what a packet and a frame are.
 
@@ -113,6 +113,60 @@ Next weeks goal: Go more in depth about subnetting to understand how everything 
 
 
 \------------------------------------------------------------
+
+
+
+Week 3 Log entry:
+
+
+
+Packet tracer labs:
+
+Watched how a switch builds its MAC address table using ARP in packet tracer simulation mode by deleting both PCs ARP cache and pinging them. 
+
+
+
+What I learned:
+
+Subnetting, VLSM and FLSM.
+
+Binary to decimal. Subnet masks and CIDR notations.
+
+The subnetting method, how to find the network and broadcast address as well as usable range. I can now subnet a network an divide the network between multiple different departments with different numbers of devices.
+
+Ethernet frames are used to communicate with devices in a local network using MAC addresses.
+
+ARP is used by a switch by sending a broadcast signal to all IPs on a network asking which one has that specific MAC address.
+
+
+
+Confidence level: 5
+
+
+
+Next week goal: Learn routing basics, default gateways, static routes, VLANs, DHCP and NAT. Labs will include connecting two networks using two routers and a static route, then building a two-VLAN network routed by a single router.
+
+
+
+\------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
